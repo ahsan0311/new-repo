@@ -72,7 +72,7 @@ app.use("/api/shop/review", shopReviewRouter);
 app.use("/api/common/feature", commonFeatureRouter);
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send(' server is running!');
   });
 
 // 🏃‍♂️ Start Server
